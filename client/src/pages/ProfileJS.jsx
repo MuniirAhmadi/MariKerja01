@@ -73,10 +73,7 @@ export default function ProfileJS() {
         <TopNav title="Profile" />
         {/* User Information */}
         <div className="flex-1 p-8 text-left  ">
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold text-left mb-4">
-              User Information
-            </h2>
+          <div className="mb-10 mt-10">
             <div className="w-full flex flex-col mb-4">
               <label htmlFor="Name" className="w-full justify-start block text-black font-medium mb-0">
                 Name
@@ -118,10 +115,9 @@ export default function ProfileJS() {
             <button className="mb-4 px-4 py-2 bg-blue-500 text-white rounded">Edit Profile</button>
           </div>
 
-          {/* Company Information */}
+          {/* Resume Information */}
           <div className="mb-4">
             <h2 className="text-2xl font-bold text-left mb-4">Resume</h2>
-
             <div className="w-full flex flex-col mb-4">
               <label htmlFor="FullName" className="w-full justify-start block text-black font-medium mb-0">
                 Full Name
@@ -173,7 +169,7 @@ export default function ProfileJS() {
                 Employment status typically refers to whether a position is full-time or part-time. Full-time employees generally work between 35-40 hours per week and often receive benefits like health insurance, retirement plans, and paid time off.
               </a>
             </div>
-            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Edit Resume</button>
+            <button className="mb-4 px-4 py-2 bg-blue-500 text-white rounded">Edit Resume</button>
           </div>
         </div>
       </div>
