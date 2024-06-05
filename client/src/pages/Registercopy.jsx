@@ -100,7 +100,7 @@ export default function Registercopy() {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="birthday" className="flex justify-start block text-black font-medium mb-0">
+        <label htmlFor="birthday" className="flex justify-start text-black font-medium mb-0">
           Date of birth
         </label>
         <div className="flex gap-4">
@@ -150,7 +150,7 @@ export default function Registercopy() {
       </div>
       <div className="flex gap-4 mb-4">
         <div className="w-1/2">
-          <label htmlFor="gender" className="flex justify-start block text-black font-medium mb-0">
+          <label htmlFor="gender" className="flex justify-start text-black font-medium mb-0">
             Gender
           </label>
           <select
@@ -167,7 +167,7 @@ export default function Registercopy() {
         </div>
         <div className="w-1/2">
           <label htmlFor="role" 
-          className="flex justify-start block text-gray-700 block font-medium mb-0">
+          className="flex justify-start text-gray-700 font-medium mb-0">
             Sign up as
           </label>
           <select
