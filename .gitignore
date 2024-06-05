@@ -1,5 +1,9 @@
 
 /client/src/Unfinished
+/server
 /server/*
+/server/node_modules
 /server/node_modules/*
+/server/package.json
 /server/package.json/*
+
